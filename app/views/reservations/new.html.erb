@@ -1,0 +1,65 @@
+<div class="wrapper-reservation">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="title-header text-center">
+          <h2>Make online reservation</h2>
+        </div>
+        <br>
+        <div class="title-subheader text-center text-muted">
+          <p class="title-subheader">NB: For today's reservation,<br> please contact the restaurant at +41.22.710.3014</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-lg-center">
+      <div class="col-lg-8">
+        <div class="reservation-form my-2">
+          <%= form_for @reservation do |f| %>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <%= f.label :name, class: "sr-only" %>
+                  <%= f.text_field :name, placeholder: "Enter your name",required: true %>
+                </div>
+                <div class="form-group">
+                  <%= f.label :email, class: "sr-only" %>
+                  <%= f.email_field :email, placeholder: "Email", required: true %>
+                </div>
+                <div class="form-group">
+                  <%= f.label :phone, class: "sr-only" %>
+                  <%= f.text_field :phone, placeholder: "Phone number", required: true %>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <%= f.label :pax, class: "sr-only" %>
+                  <%= f.text_field :pax, placeholder: "How many people ?", required: true %>
+                </div>
+                <div class="form-group">
+                  <%= f.label :date, class: "sr-only" %>
+                  <%= f.date_field :date, required: true %>
+                </div>
+                <div class="form-group">
+                  <%= f.label :time, class: "sr-only" %>
+                  <%= f.time_field :time, required: true %>
+                </div>
+                <br>
+                <div class="hidden">
+                  <%= f.label :nickname %>
+                  <%= f.text_field :nickname, hint: 'Leave it blank' %>
+                </div>
+              </div>
+              <div class="col">
+                <div class="text-center">
+                  <%= f.submit 'Reserve a table', class: "button-reservation" %>
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
