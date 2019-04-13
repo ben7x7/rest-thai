@@ -8,11 +8,11 @@
     </div>
     <div class="subtitle-details d-flex flex-column justify-content-center mb-2">
       <div class="text-center">
-        <h3>Thai restaurant</h3>
+        <h3><%= t('s1.subtitle') %></h3>
       </div>
     </div>
     <div class="home-link mt-3 text-center">
-      <%= link_to "Make a reservation", new_reservation_path, class: "btn-reservation-home btn-white" %>
+      <%= link_to "t('s1-btn')", new_reservation_path, class: "btn-reservation-home btn-white" %>
     </div>
   </div>
   <div class="ptext2">
@@ -20,7 +20,36 @@
       <i class="fas fa-map-marker-alt"></i><p>rue du Gaudy-le-Fort 14, 1213 Onex</p>
     </div>
     <div class="phone d-flex flex-row">
-      <i class="fas fa-phone"></i><p>+41.22.792.1900</p>
+      <i class="fas fa-phone"></i><p>+41 22 792 19 00</p>
     </div>
   </div>
+</div>
+
+<div class="presentation">
+  <div class="wrapper-presentation">
+    <div class="container">
+      <div class="row">
+        <div class="description">
+          <hr class="myhr">
+          <p id="welcome"><%= t('s2.welcome') %></p>
+          <br>
+          <p><%= t('s2.part1')  %></p>
+          <p><%= t('s2.part2')  %></p>
+          <p><%= t('s2.part3')  %></p>
+          <p><%= t('s2.part4')  %></p>
+          <p><%= t('s2.part5')  %></p>
+          <br>
+          <hr class="myhr">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="panneau">
+  <%= image_tag "panneau.png" %>
+</div>
+
+<div class="salle">
+  <%= image_tag "salle-width.png" %>
 </div>

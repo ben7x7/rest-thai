@@ -48,3 +48,40 @@
   padding-top: 2rem;
 }
 
+//section 2
+
+.presentation {
+  background-image: image-url('logo-brun.png');
+  background-color: #back;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.wrapper-presentation {
+  padding: 5rem 0;
+  text-align: justify;
+}
+
+.description {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+  padding: 0 2rem;
+}
+
+#welcome {
+  font-size: 42px;
+  font-weight: bold;
+}
+.myhr {
+  border-width: 2px;
+  border-color: $main;
+}
+
+//section panneau
+.panneau img,
+.salle img {
+  width: 100%;
+}
+
