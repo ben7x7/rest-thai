@@ -85,3 +85,49 @@
   width: 100%;
 }
 
+//section 3
+.title-header h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.title-subheader {
+  font-size: 21px;
+}
+
+.wrapper-menu {
+  background-color: #F8F1E5;
+  min-height: 100vh;
+  padding: 5rem 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.section_menu_item_price {
+  text-align: center;
+}
+
+.wrapper-carte {
+  box-shadow: 0 2px 14px rgba(126,87,88,.1), 0 3px 6px rgba(0,0,0,.08);
+  padding: 2rem 2rem;
+  margin: 2rem 0;
+  background-color: white;
+}
+
+hr {
+  margin-top: 0 !important;
+}
+
+.nav-pills,
+.nav-link {
+  color: $main;
+  text-decoration: none;
+  :hover {
+    color: $main;
+  }
+}
+

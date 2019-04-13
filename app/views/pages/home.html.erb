@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="home-link mt-3 text-center">
-      <%= link_to "t('s1-btn')", new_reservation_path, class: "btn-reservation-home btn-white" %>
+      <%= link_to "t('s1.btn')", new_reservation_path, class: "btn-reservation-home btn-white" %>
     </div>
   </div>
   <div class="ptext2">
@@ -49,6 +49,571 @@
 <div class="panneau">
   <%= image_tag "panneau.png" %>
 </div>
+
+<section class="section section-menu" id="menu">
+  <div class="wrapper-menu">
+    <div class="container">
+      <div class="title-header text-center">
+        <h2><%= t('s3.title') %></h2>
+      </div>
+      <div class="title-subheader text-center text-muted">
+        <p class="title-subheader"><%= t('s3.subtitle') %> <br> <%= t('s3.subtitlebis') %>
+        </p>
+          <br>
+      </div>
+      <div class="wrapper-carte">
+        <ul class="nav nav-pills justify-content-center mt-2 mb-5" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-entrees-tab" data-toggle="pill" href="#pills-entrees" role="tab" aria-controls="pills-entrees" aria-selected="true">
+              <%= t('s3.pills.starter') %>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-plats-tab" data-toggle="pill" href="#pills-plats" role="tab" aria-controls="pills-plats" aria-selected="false"><%= t('s3.pills.main') %></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-accompagnements-tab" data-toggle="pill" href="#pills-accompagnements" role="tab" aria-controls="pills-accompagnements" aria-selected="false"><%= t('s3.pills.noodle') %></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-desserts-tab" data-toggle="pill" href="#pills-desserts" role="tab" aria-controls="pills-desserts" aria-selected="false"><%= t('s3.pills.dessert') %></a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-entrees" role="tabpanel" aria-labelledby="pills-entrees-tab">
+            <div class="row section_menu_grid_item entrees ">
+              <div class="col-md-6 section_menu_item">
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.starter1') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>12 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.starter2') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>12 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.starter3') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>10 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.starter4') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>10 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="s3.section_menu_item_name">
+                        <p><%= t('menu.starter5') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>10 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <div class="col-md-6 section_menu_item">
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.starter6') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>10 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.starter7') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>14 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.starter8') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>14 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.starter9') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>12 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.starter10') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>27 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-plats" role="tabpanel" aria-labelledby="pills-plats-tab">
+            <div class="row section_menu_grid_item plats ">
+              <div class="col-md-6 section_menu_item">
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main1') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>25 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main2') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>25 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main3') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>25 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main4') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>25 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main5') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>25 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main6') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>25 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <div class="col-md-6 section_menu_item">
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main7') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>27 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main8') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>27 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main9') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>27 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main10') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>27 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.main11') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>27 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-accompagnements" role="tabpanel" aria-labelledby="pills-accompagnements-tab">
+            <div class="row section_menu_grid_item accompagnments ">
+              <div class="col-md-6 section_menu_item">
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.noodle1') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>28 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.noodle2') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>26 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.noodle3') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>16 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <div class="col-md-6 section_menu_item">
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.noodle4') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>28 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.noodle5') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>3 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.noodle6') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>5 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-desserts" role="tabpanel" aria-labelledby="pills-desserts-tab">
+            <div class="row section_menu_grid_item desserts ">
+              <div class="col-md-6 section_menu_item">
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.dessert1') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>8 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.dessert2') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>11 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.dessert3') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>16 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+              <div class="col-md-6 section_menu_item">
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.dessert4') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>6 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                        <p><%= t('s3.menu.dessert5') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>7 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="menu-item">
+                    <div class="col-9">
+                      <div class="section_menu_item_name">
+                         <p><%= t('s3.menu.dessert6') %></p>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="section_menu_item_price">
+                        <strong>3,50 Frs</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="home-link text-center">
+        <%= link_to "Book a table", new_reservation_path, class: "btn-reservation-home btn-black" %>
+      </div>
+    </div>
+  </div>
+</section>
 
 <div class="salle">
   <%= image_tag "salle-width.png" %>
