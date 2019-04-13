@@ -1,1 +1,50 @@
-// Specific CSS for your home-page
+// Section 1
+.pimg1 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('table-home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: calc(100vh - 70px);
+  position: relative;
+}
+
+.ptext {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}
+
+.ptext2 {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  .fas {
+    color: $main
+  }
+}
+
+.subtitle-details p {
+  margin-bottom: 0.5rem;
+}
+
+.fas,
+.far {
+  padding-right: 1rem;
+}
+
+.logos {
+  padding: 1rem 0;
+}
+
+.home-link {
+  padding-top: 2rem;
+}
+

@@ -1,7 +1,41 @@
-.button-home {
-
+.button-reservation {
+  padding: 1rem 2rem;
+  border: solid 1px #E67E22;
+  color: $main;
+  background-color: transparent;
+  border-radius: 5px;
 }
 
-.button-reservation {
+.button-reservation:hover {
+  background-color: $main;
+  color: white;
+  font-weight: bold;
+}
 
+.btn-white {
+  color: white;
+}
+
+.btn-black {
+  color: black;
+}
+
+.btn-colored {
+  color: $main;
+}
+
+.btn-reservation-home {
+  padding: 1rem 2rem;
+  background-color: transparent !important;
+  border: solid 2px $main !important;
+  border-radius: 5px;
+  font-size: 1.1rem !important;
+  font-weight: normal;
+}
+
+.btn-reservation-home:hover {
+  background-color: $main !important;
+  font-weight: bold;
+  text-decoration: none;
+  color: white !important;
 }

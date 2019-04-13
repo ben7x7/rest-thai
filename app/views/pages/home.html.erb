@@ -1,4 +1,26 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
-</p>
+<div class="pimg1">
+  <div class="ptext">
+    <div class="logos">
+      <%= image_tag "logo-white.png" %>
+      <br>
+      <br>
+      <%= image_tag "title.png" %>
+    </div>
+    <div class="subtitle-details d-flex flex-column justify-content-center mb-2">
+      <div class="text-center">
+        <h3>Thai restaurant</h3>
+      </div>
+    </div>
+    <div class="home-link mt-3 text-center">
+      <%= link_to "Make a reservation", new_reservation_path, class: "btn-reservation-home btn-white" %>
+    </div>
+  </div>
+  <div class="ptext2">
+    <div class="address d-flex flex-row">
+      <i class="fas fa-map-marker-alt"></i><p>rue du Gaudy-le-Fort 14, 1213 Onex</p>
+    </div>
+    <div class="phone d-flex flex-row">
+      <i class="fas fa-phone"></i><p>+41.22.792.1900</p>
+    </div>
+  </div>
+</div>
