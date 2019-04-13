@@ -1,33 +1,65 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  s1:
+    subtitle: "THAI RESTAURANT"
+    btn: "Make a reservation"
+  s2:
+    welcome: "Welcome"
+    part1: "Located in the heart of Onex's old town district, La Table des Artisans would like to welcome you to this elegant and charming Thai restaurant."
+    part2: "You will experience a gourmet getaway into the tasty and flavored world of the Traditional Thai Cuisine. An express transfert to Thailand with no jet-lag!"
+    part3: "A delicious and fabulous experience to share with your friends, familly, clients or employees."
+    part4: "La Table des Artisans promotes fresh products in its kitchen to offer you the best tasts and flavors."
+    part5: "blablabla"
+  s3:
+    title: "Our menu"
+    subtitle: "All dishes are available to takeaway with 10% discount."
+    subtitlebis: "At lunch only, we propose a daily menu formula for 18. Frs"
+    pills:
+      starter: "Starters"
+      main: "Mains"
+      noodle: "Noodles"
+      dessert: "Desserts"
+    menu:
+      starter1: "Tom-Yam soup with shrimps"
+      starter2: "Tom-Kha soup with chicken and coconut milk"
+      starter3: "Chicken Satay"
+      starter4: "Deep-fried shrimps dumplings"
+      starter5: "Vegetarian springrolls"
+      starter6: "Steamed shrimps and chicken dumplings"
+      starter7: "Spicy beef salad (Main : Frs 27)"
+      starter8: "Spicy minced chicken salad (Main : Frs 27)"
+      starter9: "Spicy papaya salad in Som Tam Thaï style"
+      starter10: "Spicy papaya salad with shrimps"
+      main1: "Sweet & sour chicken, or pork"
+      main2: "Red curry chicken, or pork"
+      main3: "Green curry chicken, or pork with bamboo shoot"
+      main4: "Stir-fried chicken, or pork with fresh chili and basil leaves"
+      main5: "Stir-fried chicken, or pork with ginger and mushrooms"
+      main6: "Stir-fried chicken, or pork with cashew nuts and onions"
+      main7: "Red curry beef, or shrimps"
+      main8: "Green curry beef, or shrimps with bamboo shoot"
+      main9: "Stir-fried beef with oyster dressing and mushrooms"
+      main10: "Stir-fried beef, or shrimps with garlic and pepper"
+      main11: "Red curry of fish filet (upon availability)"
+      noodle1: "Stir-fried rice noodles with shrimps in Thai style"
+      noodle2: "Stir-fried rice noodles with chicken"
+      noodle3: "stir-fried mixed vegetables with oyster dressing"
+      noodle4: "Stir-fried rice noodles with chicken and fresh chili"
+      noodle5: "Steamed rice"
+      noodle6: "Fried rice with garlic and chive"
+      dessert1: "Half Thai mango"
+      dessert2: "Half Thai mango with sticky rice"
+      dessert3: "Pineapple confit with Cointreau, ice cream"
+      dessert4: "Exotic fruits salad"
+      dessert5: "Chestnut & coconut milk flan "
+      dessert6: "Ice cream or sorbet (per bowl)"
+  s4:
+    info:
+      title: "Contact us"
+      window1: "CONTACT INFO"
+      window2: "OPENING TIME"
+      week1: "Monday - Friday"
+      week2: "Tuesday - Saturday"
+  s5:
+    gallery:
+      title: "Our gallery"
+
