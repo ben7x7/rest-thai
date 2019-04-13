@@ -96,7 +96,7 @@
 }
 
 .wrapper-menu {
-  background-color: #F8F1E5;
+  background-color: $back;
   min-height: 100vh;
   padding: 5rem 0;
 }
@@ -131,3 +131,62 @@ hr {
   }
 }
 
+//section Contact
+.wrapper-info {
+  padding: 5rem 0;
+  color: #F4F4F4;
+  background-color: #454647;
+}
+
+.title-window {
+  color: $main;
+  font-weight: bold;
+  hr {
+    border: solid 1px $main,
+  }
+}
+
+.window-info {
+  padding: 1rem 2rem;
+}
+
+ul.list-contact {
+  list-style: none;
+  padding: 0 0;
+  margin: 0 0;
+  font-size: 18px;
+}
+
+li.list-item {
+  margin-bottom: 1rem;
+  display: flex-row;
+  align-items: center;
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+@media(max-width: 1199px) {
+  .map-large {
+    display: none;
+  }
+  .map-small {
+    text-align: center;
+  }
+}
+
+@media(min-width: 1200px) {
+  .map-small {
+    display: none;
+  }
+}
+//section Gallery
+.wrapper-gallery {
+  background-color: #F8F1E5;
+  color: #2D2F30;
+  padding: 5rem 0;
+}
+
+.wrapper-carousel {
+  padding-top: 4rem;
+}

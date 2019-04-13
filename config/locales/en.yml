@@ -52,3 +52,14 @@ en:
       dessert4: "Exotic fruits salad"
       dessert5: "Chestnut & coconut milk flan "
       dessert6: "Ice cream or sorbet (per bowl)"
+  s4:
+    info:
+      title: "Contact us"
+      window1: "CONTACT INFO"
+      window2: "OPENING TIME"
+      week1: "Monday - Friday"
+      week2: "Tuesday - Saturday"
+  s5:
+    gallery:
+      title: "Our gallery"
+
