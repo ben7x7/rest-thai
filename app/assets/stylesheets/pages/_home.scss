@@ -8,6 +8,10 @@
   position: relative;
 }
 
+.pimg1 img {
+  crop: fill;
+}
+
 .ptext {
   position: absolute;
   top: 20%;
@@ -37,7 +41,7 @@
 
 .fas,
 .far {
-  padding-right: 1rem;
+  padding-right: 10px;
 }
 
 .logos {
@@ -49,6 +53,9 @@
 }
 
 //section 2
+.wrapper {
+  padding: 5rem 0;
+}
 
 .presentation {
   background-image: image-url('logo-brun.png');
@@ -59,7 +66,6 @@
 }
 
 .wrapper-presentation {
-  padding: 5rem 0;
   text-align: justify;
 }
 
@@ -133,7 +139,6 @@ hr {
 
 //section Contact
 .wrapper-info {
-  padding: 5rem 0;
   color: #F4F4F4;
   background-color: #454647;
 }
@@ -184,7 +189,6 @@ li.list-item {
 .wrapper-gallery {
   background-color: #F8F1E5;
   color: #2D2F30;
-  padding: 5rem 0;
 }
 
 .wrapper-carousel {

@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="home-link mt-3 text-center">
-      <%= link_to "t('s1.btn')", new_reservation_path, class: "btn-reservation-home btn-white" %>
+      <a class="btn-reservation-home btn-white" href="/reservations/new"><%= t('s1.btn') %></a>
     </div>
   </div>
   <div class="ptext2">
@@ -26,7 +26,7 @@
 </div>
 
 <div class="presentation">
-  <div class="wrapper-presentation">
+  <div class="wrapper wrapper-presentation">
     <div class="container">
       <div class="row">
         <div class="description">
@@ -51,7 +51,7 @@
 </div>
 
 <section class="section section-menu" id="menu">
-  <div class="wrapper-menu">
+  <div class=" wrapper wrapper-menu">
     <div class="container">
       <div class="title-header text-center">
         <h2><%= t('s3.title') %></h2>
@@ -609,7 +609,7 @@
         </div>
       </div>
       <div class="home-link text-center">
-        <%= link_to "Book a table", new_reservation_path, class: "btn-reservation-home btn-black" %>
+        <a class="btn-reservation-home btn-black" href="/reservations/new"><%= t('s3.menu.btn') %></a>
       </div>
     </div>
   </div>
@@ -620,7 +620,7 @@
 </div>
 
 <section class="section section-info" id="contact">
-  <div class="wrapper-info">
+  <div class="wrapper wrapper-info">
     <div class="container">
       <div class="title-header title-info text-center">
         <h2><%= t('s4.info.title') %></h2>
@@ -640,7 +640,7 @@
               </li>
               <li class="list-item d-flex mb-3">
                 <i class="fas fa-phone"></i>
-                <p>+41 22 792 19 00</p>
+                <p>+41.22.792.19.00</p>
               </li>
               <li class="list-item d-flex mb-3">
                 <i class="far fa-envelope"></i>
@@ -683,7 +683,7 @@
 </section>
 
 <section class="section section-gallery">
-  <div class="wrapper-gallery">
+  <div class="wrapper wrapper-gallery">
     <div class="container">
       <div class="title-header text-center">
         <h2><%= t('s5.gallery.title') %></h2>

@@ -7,8 +7,8 @@ en:
     part1: "Located in the heart of Onex's old town district, La Table des Artisans would like to welcome you to this elegant and charming Thai restaurant."
     part2: "You will experience a gourmet getaway into the tasty and flavored world of the Traditional Thai Cuisine. An express transfert to Thailand with no jet-lag!"
     part3: "A delicious and fabulous experience to share with your friends, familly, clients or employees."
-    part4: "La Table des Artisans promotes fresh products in its kitchen to offer you the best tasts and flavors."
-    part5: "blablabla"
+    part4: "La Table des Artisans promotes fresh products in its kitchen to guarantee you the best tasts and flavors."
+    part5: "we also provide catering services with our shop, La Maison Thaï, located in Geneva. "
   s3:
     title: "Our menu"
     subtitle: "All dishes are available to takeaway with 10% discount."
@@ -25,8 +25,8 @@ en:
       starter4: "Deep-fried shrimps dumplings"
       starter5: "Vegetarian springrolls"
       starter6: "Steamed shrimps and chicken dumplings"
-      starter7: "Spicy beef salad (Main : Frs 27)"
-      starter8: "Spicy minced chicken salad (Main : Frs 27)"
+      starter7: "Spicy beef salad (Main: 27 Frs)"
+      starter8: "Spicy minced chicken salad (Main: 27 Frs)"
       starter9: "Spicy papaya salad in Som Tam Thaï style"
       starter10: "Spicy papaya salad with shrimps"
       main1: "Sweet & sour chicken, or pork"
@@ -52,6 +52,7 @@ en:
       dessert4: "Exotic fruits salad"
       dessert5: "Chestnut & coconut milk flan "
       dessert6: "Ice cream or sorbet (per bowl)"
+      btn: "Book a table"
   s4:
     info:
       title: "Contact us"

@@ -1,0 +1,47 @@
+.lmt {
+  background-color: white !important;
+  background-size: cover;
+}
+
+.wrapper-lmt {
+  padding: 2rem 0 5rem 0;
+}
+
+.lmt-title h2 {
+  font-family: 'Anton';
+  font-size: 42px;
+  color: red !important;
+}
+
+.lmt-subtitle {
+  font-size: 21px;
+}
+
+.lmt-picture img {
+  width: 100%;
+}
+.wrapper-tarif {
+  background-color: $back;
+}
+
+.catering-starter,
+.catering-main,
+.catering-dessert {
+  background-color: white;
+  padding: 0 20px 0 20px;
+  box-shadow: 0 2px 14px rgba(126,87,88,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.catering-starter-title,
+.catering-main-title,
+.catering-dessert-title {
+  hr {
+    border: 1px solid rgba(0,0,0,0.3);
+  }
+
+}
+
+.wrapper-contact {
+  color: #F4F4F4;
+  background-color: #454647;
+}
