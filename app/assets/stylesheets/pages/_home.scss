@@ -8,10 +8,6 @@
   position: relative;
 }
 
-.pimg1 img {
-  crop: fill;
-}
-
 .ptext {
   position: absolute;
   top: 20%;
@@ -62,7 +58,6 @@
   background-color: #back;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
 }
 
 .wrapper-presentation {
@@ -143,6 +138,10 @@ hr {
   background-color: #454647;
 }
 
+.title-info h2 {
+  color: $main;
+}
+
 .title-window {
   color: $main;
   font-weight: bold;
@@ -168,6 +167,11 @@ li.list-item {
   align-items: center;
   p {
     margin-bottom: 0px;
+  }
+}
+@media(max-width: 568px) {
+  .navbar-brand img {
+    width: 300px;
   }
 }
 

@@ -5,10 +5,10 @@ en:
   s2:
     welcome: "Welcome"
     part1: "Located in the heart of Onex's old town district, La Table des Artisans would like to welcome you to this elegant and charming Thai restaurant."
-    part2: "You will experience a gourmet getaway into the tasty and flavored world of the Traditional Thai Cuisine. An express transfert to Thailand with no jet-lag!"
+    part2: "You will experience an authentic escape into the tasty and flavored world of the Traditional Thai Cuisine."
     part3: "A delicious and fabulous experience to share with your friends, familly, clients or employees."
-    part4: "La Table des Artisans promotes fresh products in its kitchen to guarantee you the best."
-    part5: "we also provide catering services with our shop, La Maison Thaï, located in Geneva. "
+    part4: "La Table des Artisans provides tailored outside catering services and can also offer its own premises for your professional or personal events. We can host from 25 up to 50 people. For outside services, we have the pleasure to present you our catering shop, "
+    part5: "For more information, feel free to contact us at "
   s3:
     title: "Our menu"
     subtitle: "All dishes are available to takeaway with 10% discount."
@@ -63,4 +63,16 @@ en:
   s5:
     gallery:
       title: "Our gallery"
+  lmt:
+    subtitle: "Thai catering shop"
+    presentation:
+      part1: "Located in Plainpalais district of Geneva, La Maison Thai propose you from Monday to Friday, Thai takeaway dishes, cooked in the purest of traditions."
+      part2: "A wide variety of specialities, different every day to tast and enjoy the richness of Thai Cuisine flavors."
+      part3: "We also provide bespoke outside catering services covering all types of events, both professional and personal, from weddings, birthday parties to cocktails. For more information, feel free to email us at "
+      part4: "For passionate cooks or amateurs, a selection of exotic products, imported from Thailand are available in our shop."
+  reservation:
+    create:
+      greeting: "Thank you for your reservation !"
+      subtitle: "A confirmation will be mailed to you shortly."
+      home: "Home"
 

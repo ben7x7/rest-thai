@@ -1,10 +1,10 @@
-<div class="pimg1">
+ <div class="pimg1">
   <div class="ptext">
     <div class="logos">
       <%= image_tag "logo-white.png" %>
       <br>
       <br>
-      <%= image_tag "title.png" %>
+      <%= image_tag "title.png", width: 380 %>
     </div>
     <div class="subtitle-details d-flex flex-column justify-content-center mb-2">
       <div class="text-center">
@@ -20,7 +20,7 @@
       <i class="fas fa-map-marker-alt"></i><p>rue du Gaudy-le-Fort 14, 1213 Onex</p>
     </div>
     <div class="phone d-flex flex-row">
-      <i class="fas fa-phone"></i><p>+41 22 792 19 00</p>
+      <i class="fas fa-phone"></i><p>+41.22.792.19.00</p>
     </div>
   </div>
 </div>
@@ -36,8 +36,11 @@
           <p><%= t('s2.part1')  %></p>
           <p><%= t('s2.part2')  %></p>
           <p><%= t('s2.part3')  %></p>
-          <p><%= t('s2.part4')  %></p>
-          <p><%= t('s2.part5')  %></p>
+          <p><%= t('s2.part4')  %> <%= link_to "La Maison Thai", lamaisonthai_path, class: "lmt-link"  %>.</p>
+          <p>
+            <%= t('s2.part5')  %>
+            <a data-controller="trackers" data-event="Contact" data-action="click->trackers#activateTracker" id="mail-contact" href="mailto:contact@tabledesartisans.ch">contact@tabledesartisans.ch</a>.
+          </p>
           <br>
           <hr class="myhr">
         </div>
@@ -674,7 +677,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.429257521167!2d6.097866650945921!3d46.182015993177515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0805a3879d47302!2sLa+Table+des+Artisans+-+Restaurant+Tha%C3%AF!5e0!3m2!1sfr!2sfr!4v1554471937689!5m2!1sfr!2sfr" width="540" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
           <div class="map-small">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.429257521167!2d6.097866650945921!3d46.182015993177515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0805a3879d47302!2sLa+Table+des+Artisans+-+Restaurant+Tha%C3%AF!5e0!3m2!1sfr!2sfr!4v1554471937689!5m2!1sfr!2sfr" width="365" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.429257521167!2d6.097866650945921!3d46.182015993177515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0805a3879d47302!2sLa+Table+des+Artisans+-+Restaurant+Tha%C3%AF!5e0!3m2!1sfr!2sfr!4v1554471937689!5m2!1sfr!2sfr" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>

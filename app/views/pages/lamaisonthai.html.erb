@@ -8,7 +8,7 @@
         <h2>LA MAISON THAI</h2>
       </div>
       <div class="lmt-subtitle text-center text-muted">
-        <h3>Traiteur thaïlandais</h3>
+        <h3><%= t('lmt.subtitle') %></h3>
       </div>
     </div>
   </div>
@@ -22,10 +22,13 @@
   <div class="wrapper wrapper-description">
     <div class="container">
       <div class="text-justify">
-        <p>  Située dans le quartier de Plainpalais à Genève, La Maison Thaï vous propose du lundi au vendredi des plats thaïlandais à l’emporter, préparés dans la pure des traditions. <br>Une grande variété de spécialités traditionnelles, différentes chaque jour, pour mieux vous faire découvrir et apprécier la richesse des saveurs de la Cuisine Thaïlandaise.</p>
-        <p>Nous mettons à votre disposition un service de traiteur pour couvrir tous vos événements que ce soit mariage ou cocktails. Notre précieuse expérience et notre talent dans ce domaine vous assurera un service sur mesure, qui répondra avec précision à chacune de vos attentes afin d’impressionner vos invités. Pour plus de détails, contactez-nous : contact@tabledesartisans.ch
+        <p><%= t('lmt.presentation.part1')  %></p>
+        <p><%= t('lmt.presentation.part2')  %></p>
+        <p>
+          <%= t('lmt.presentation.part3')  %>
+          <a data-controller="trackers" data-event="Contact" data-action="click->trackers#activateTracker" id="mail-contact" href="mailto:lamaisonthai@gmail.com">lamaisonthai@gmail.com</a>.
         </p>
-        <p>Pour les passionnés et amateurs de cuisine, nous proposons également une sélection de produits exotiques, importés de Thaïlande à cuisiner chez soi.</p>
+        <p><%= t('lmt.presentation.part4')  %></p>
       </div>
     </div>
   </div>
@@ -35,12 +38,12 @@
   <div class="wrapper wrapper-tarif">
     <div class="container">
       <div class="title-header pb-2 text-center">
-        <h2>Nos Tarifs</h2>
+        <h2><%= t('s3.title') %></h2>
       </div>
       <div class="catering-wrapper mt-5">
         <div class="catering-starter">
           <div class="catering-starter-title py-3 text-center">
-            <h3>Entrées</h3>
+            <h3><%= t('s3.pills.starter') %></h3>
             <hr>
           </div>
           <div class="row">
@@ -155,7 +158,7 @@
         </div>
         <div class="catering-main my-3">
           <div class="catering-main-title py-3 text-center">
-            <h3>Plats</h3>
+            <h3><%= t('s3.pills.main') %></h3>
             <hr>
           </div>
           <div class="row">
@@ -285,7 +288,7 @@
         </div>
         <div class="catering-dessert">
           <div class="catering-dessert-title py-3 text-center">
-            <h3>Desserts</h3>
+            <h3><%= t('s3.pills.dessert') %></h3>
             <hr>
           </div>
           <div class="row">
@@ -315,8 +318,8 @@
 <div class="contact">
   <div class="wrapper wrapper-contact">
     <div class="container">
-      <div class="title-header text-center">
-        <h2>Contact us</h2>
+      <div class="title-header title-info text-center">
+        <h2><%= t('s4.info.title') %></h2>
       </div>
       <div class="row mt-5">
         <div class=" col-sm-12 col-md-6 justify-content-center">
@@ -349,7 +352,7 @@
             </div>
             <ul class="list-contact">
               <li class="list-item d-flex justify-content-between mb-3">
-                <p>Monday - Friday</p>
+                <p><%= t('s4.info.week1') %></p>
                 <p>11H - 19H30</p>
               </li>
             </ul>
@@ -362,7 +365,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.99212521564!2d6.14159111558195!3d46.19071537911631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b484cf484bf%3A0x21ea189e8fa8d4a9!2sLa+Maison+Tha%C3%AF!5e0!3m2!1sfr!2sfr!4v1555328710387!5m2!1sfr!2sfr" width="540" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
           <div class="map-small">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.99212521564!2d6.14159111558195!3d46.19071537911631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b484cf484bf%3A0x21ea189e8fa8d4a9!2sLa+Maison+Tha%C3%AF!5e0!3m2!1sfr!2sfr!4v1555328710387!5m2!1sfr!2sfr" width="365" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.99212521564!2d6.14159111558195!3d46.19071537911631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b484cf484bf%3A0x21ea189e8fa8d4a9!2sLa+Maison+Tha%C3%AF!5e0!3m2!1sfr!2sfr!4v1555328710387!5m2!1sfr!2sfr" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>

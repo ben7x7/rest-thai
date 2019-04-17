@@ -3,14 +3,16 @@
     <div class="row">
       <div class="col">
         <div class="title-header text-center mt-5">
-          <h2>Thank you for your reservation !</h2>
+          <h3><%= t('reservation.create.greeting') %></h3>
         </div>
         <br>
         <div class="title-subheader text-center text-muted">
-          <p class="title-subheader">A confirmation will be mailed to you shortly.</p>
+          <p class="title-subheader"><%= t('reservation.create.subtitle') %></p>
           <br>
         </div>
-        <%= link_to "Home", root_path, class: "button-home" %>
+        <div class="text-center">
+          <a class="home-link" href="/"><%= t('reservation.create.home') %></a>
+        </div>
       </div>
     </div>
   </div>
