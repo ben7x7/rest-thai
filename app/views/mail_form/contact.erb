@@ -1,0 +1,24 @@
+<h4 style="text-decoration:underline"><%= message.subject %></h4>
+
+<% @resource.mail_form_attributes.each do |attribute, value|
+  next if value.blank? %>
+
+  <p><b><%= @resource.class.human_attribute_name(attribute) %>:</b>
+  <%= case value
+    when /\n/
+      raw(simple_format(h(value)))
+    when Time, DateTime, Date
+      I18n.l(value)
+    else
+      value
+    end
+  %></p>
+<% end %>
+
+<p>Bonjour,</p>
+<br>
+<br>
+<p>J'ai le plaisir de confirmer votre réservation faite sur notre site internet: <br>
+  Une table réservée au nom de <%= @reservation.name %> pour <%= @reservation.pax %> personnes le <%= @reservation.date %> à <%= @reservation.time %>.</p>
+<p>Merci de bien vouloir nous contacter en cas de retard ou d'annulation.</p>
+<p>Dans l'attente de vous accueillir à La Table des Artisans, je vous souhaite une excellente journée.</p>
