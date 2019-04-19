@@ -60,15 +60,12 @@
   background-position: center;
 }
 
-.wrapper-presentation {
-  text-align: justify;
-}
-
 .description {
   max-width: 700px;
   margin: auto;
   font-size: 18px;
   padding: 0 2rem;
+  text-align: justify;
 }
 
 #welcome {
@@ -174,10 +171,6 @@ li.list-item {
     width: 250px;
   }
 
-  .pimg1 {
-    background-attachment: scroll;
-  }
-
   .ptext2 {
     flex-direction: column;
     justify-content: center;
@@ -190,6 +183,9 @@ li.list-item {
   }
   .map-small {
     text-align: center;
+  }
+  .pimg1 {
+    background-attachment: scroll;
   }
 }
 
