@@ -11,25 +11,24 @@
     <ul class="navbar-nav mr-auto">
 
       <li class="nav-item">
-        <%= link_to "Reservation", new_reservation_path, class: "nav-link" %>
+        <a class="nav-link" href="/reservations/new"><%= t('link.reservation') %></a>
       </li>
       <li class="nav-item">
-        <%= link_to "Menu", "/#menu", class: "nav-link" %>
+        <a class="nav-link" href="/#menu"><%= t('link.menu') %></a>
+
       </li>
       <li class="nav-item">
-        <%= link_to "Catering", lamaisonthai_path, class: "nav-link" %>
+        <a class="nav-link" href="/lamaisonthai"><%= t('link.catering') %></a>
       </li>
       <li class="nav-item">
-        <%= link_to "Contact", "/#contact", class: "nav-link" %>
+        <a class="nav-link" href="/#contact"><%= t('link.contact') %></a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          FR
-        </a>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">EN</a>
-          <a class="dropdown-item" href="#">TH</a>
-        </div>
+
+      <li class="nav-item">
+        <%= link_to_unless_current "FR", locale: "fr" %> |
+
+        <%= link_to_unless_current "EN", locale: "en" %>
+
       </li>
     </ul>
   </div>

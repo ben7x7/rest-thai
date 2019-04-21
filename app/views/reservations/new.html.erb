@@ -3,11 +3,14 @@
     <div class="row">
       <div class="col">
         <div class="title-header text-center">
-          <h2>Make online reservation</h2>
+          <h2><%= t('reservation.new.title') %></h2>
         </div>
         <br>
         <div class="title-subheader text-center text-muted">
-          <p class="title-subheader">NB: For today's reservation,<br> please contact the restaurant at +41.22.792.19.00</p>
+          <p class="title-subheader">
+            <%= t('reservation.new.subtitle1') %> <br>
+            <%= t('reservation.new.subtitle2') %>
+          </p>
         </div>
       </div>
     </div>
@@ -19,7 +22,7 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <%= f.label :name, class: "sr-only" %>
-                  <%= f.text_field :name, placeholder: "Enter your name",required: true %>
+                  <%= f.text_field :name, placeholder: "Entrer votre nom",required: true %>
                 </div>
                 <div class="form-group">
                   <%= f.label :email, class: "sr-only" %>
@@ -27,13 +30,13 @@
                 </div>
                 <div class="form-group">
                   <%= f.label :phone, class: "sr-only" %>
-                  <%= f.text_field :phone, placeholder: "Phone number", required: true %>
+                  <%= f.text_field :phone, placeholder: "Numéro de téléphone", required: true %>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
                   <%= f.label :pax, class: "sr-only" %>
-                  <%= f.text_field :pax, placeholder: "How many people ?", required: true %>
+                  <%= f.text_field :pax, placeholder: "Combien de personnes ?", required: true %>
                 </div>
                 <div class="form-group">
                   <%= f.label :date, class: "sr-only" %>
@@ -49,12 +52,12 @@
                   <%= f.text_field :nickname, hint: 'Leave it blank' %>
                 </div>
               </div>
-              <div class="col justify-content-center">
+              <div class="col">
                 <div class="text-center">
-                  <%= f.submit 'Reserve a table', class: "button-reservation" %>
+                  <%= f.submit 'Réserve une table', class: "button-reservation" %>
                   <br>
                   <br>
-                  <a class="home-link" href="/"><%= t('reservation.create.home') %></a>
+                  <a class="home-link" href="/"><%= t('link.home') %></a>
                 </div>
               </div>
             </div>

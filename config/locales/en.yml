@@ -1,4 +1,10 @@
 en:
+  link:
+    home: "Home"
+    reservation: "Reservation"
+    menu: "Menu"
+    catering: "Catering"
+    contact: "Contact"
   s1:
     subtitle: "THAI RESTAURANT"
     btn: "Make a reservation"
@@ -73,5 +79,8 @@ en:
     create:
       greeting: "Thank you for your reservation !"
       subtitle: "A confirmation will be mailed to you shortly."
-      home: "Home"
+    new:
+      title: "Make online reservation"
+      subtitle1: "NB: For today's reservation,"
+      subtitle2: "please contact the restaurant at +41.22.792.19.00"
 
