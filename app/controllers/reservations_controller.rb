@@ -13,4 +13,8 @@ class ReservationsController < ApplicationController
       render :new
     end
   end
+
+  def show
+    @reservation = Reservation.find(params[:id])
+  end
 end
