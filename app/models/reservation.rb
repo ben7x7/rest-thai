@@ -12,7 +12,7 @@ class Reservation < MailForm::Base
   def headers
     {
       :subject => "New reservation",
-      :to => "benoit.bessiere@me.com, contact@tabledesartisans.ch",
+      :to => "contact@tabledesartisans.ch",
       :from => %("#{name}" <#{email}>)
     }
   end
