@@ -75,6 +75,20 @@ en:
       part2: "A wide variety of specialities, different every day to tast and enjoy the richness of Thai Cuisine flavors."
       part3: "We also provide bespoke outside catering services covering all types of events, both professional and personal, from weddings, birthday parties to cocktails. For more information, feel free to email us at "
       part4: "For passionate cooks or amateurs, a selection of exotic products, imported from Thailand are available in our shop."
+    menu:
+      starter1: "Springrolls"
+      starter2: "Summerrolls"
+      starter3: "Chicken Satay"
+      starter4: "fish cake (3 pieces)"
+      starter5: "Papaya salad"
+      main1: "Daily dish + Steamed rice"
+      main2: "Pad Thai with chicken or shrimps"
+      main3: "Pad Thai with vegetables"
+      main4: "50% daily dish - 50% Pad Thai"
+      main5: "Portion of steamed rice"
+      dessert1: "All desserts"
+      small: "Small portion"
+      large: "Large portion"
   reservation:
     create:
       greeting: "Thank you for your reservation !"

@@ -40,7 +40,7 @@
                 </div>
                 <div class="form-group">
                   <%= f.label :date, class: "sr-only" %>
-                  <%= f.date_field :date, required: true %>
+                  <%= f.date_field :date, format: "%a %e %b %Y",required: true %>
                 </div>
                 <div class="form-group">
                   <%= f.label :time, class: "sr-only" %>
