@@ -11,22 +11,23 @@
     <ul class="navbar-nav mr-auto">
 
       <li class="nav-item">
-        <a class="nav-link" href="/reservations/new"><%= t('link.reservation') %></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/#menu"><%= t('link.menu') %></a>
+        <%= link_to t('link.reservation'), new_reservation_path, class: "nav-link"  %>
 
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/lamaisonthai"><%= t('link.catering') %></a>
+        <%= link_to t('link.menu'), root_path(anchor: 'menu') ,  class: "nav-link" %>
+
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/#contact"><%= t('link.contact') %></a>
+        <%= link_to t('link.catering'), lamaisonthai_path, class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to t('link.contact'), root_path(anchor: 'contact') ,  class: "nav-link" %>
       </li>
 
       <li class="nav-item">
-        <%= link_to "FR", locale: "fr" %> |
-        <%= link_to "EN", locale: "en" %>
+        <%= link_to image_tag('flag-fr.png'), url_for(locale: 'fr') %>
+        <%= link_to image_tag('flag-en.png'), url_for(locale: 'en') %>
       </li>
     </ul>
   </div>

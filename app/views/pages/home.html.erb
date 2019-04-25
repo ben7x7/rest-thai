@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="home-link mt-3 text-center">
-      <a class="btn-reservation-home btn-white" href="/reservations/new"><%= t('s1.btn') %></a>
+      <%= link_to t('s1.btn'), new_reservation_path, class: "btn-reservation-home btn-white" %>
     </div>
   </div>
   <div class="ptext2">
@@ -611,7 +611,7 @@
         </div>
       </div>
       <div class="home-link text-center">
-        <a class="btn-reservation-home btn-black" href="/reservations/new"><%= t('s3.menu.btn') %></a>
+        <%= link_to t('s3.menu.btn'), new_reservation_path, class: "btn-reservation-home btn-black" %>
       </div>
     </div>
   </div>
