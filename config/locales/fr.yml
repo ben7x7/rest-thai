@@ -12,12 +12,12 @@ fr:
     welcome: "Bienvenue"
     part1: "Située au cœur du vieux bourg d’Onex, la Table des Artisans vous accueille dans un lieu élégant et pittoresque."
     part2: "Nous vous offrons une escapade authentique dans le monde gourmand et savoureux de la Cuisine Traditionnelle thaïlandaise. Une délicieuse et fabuleuse expérience à partager avec vos amis, en famille, vos clients ou vos collaborateurs."
-    part3: "La Table des Artisans vous reçoit ou se déplace pour vos prochains événements privés ou professionnels. Nous vous proposons la privatisation du restaurant qui pourra accueillir aisément jusqu’à 40 invités. Pour vos évènements à l’extérieur du restaurant, nous vous présentons notre boutique traiteur : "
+    part3: "La Table des Artisans vous reçoit ou se déplace pour vos prochains événements privés ou professionnels. Nous vous proposons la privatisation du restaurant qui pourra accueillir aisément jusqu’à 40 convives. Pour vos évènements à l’extérieur du restaurant, nous vous présentons notre boutique traiteur : "
     part4: "Pour plus d’information sur ces prestations, n’hésitez pas à nous contacter: "
   s3:
     title: "Notre carte"
-    subtitle: "Tous nos plats sont disponibles à l’emporter avec une remise de 10%."
-    subtitlebis: "Tous les midis, nous proposons un menu du jour pour 18 Frs"
+    subtitle: "Tous nos plats sont disponibles à emporter avec une remise de 10%."
+    subtitlebis: "Tous les midis, nous proposons un menu du jour à 18 Frs"
     pills:
       starter: "Entrées"
       main: "Plats"
