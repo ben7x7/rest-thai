@@ -5,6 +5,7 @@ class Reservation < MailForm::Base
   attribute :pax,       :validate => true
   attribute :date,      :validate => true
   attribute :time,      :validate => true
+  attribute :message,   :validate => false
   attribute :nickname,  :captcha  => true
 
   # Declare the e-mail headers. It accepts anything the mail method

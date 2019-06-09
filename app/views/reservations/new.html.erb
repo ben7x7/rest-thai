@@ -53,6 +53,12 @@
                 </div>
               </div>
               <div class="col">
+                <div class="form-group">
+                  <%= f.label :message, class: "sr-only" %>
+                  <%= f.text_field :message, placeholder: "message...", required: false %>
+                </div>
+              </div>
+              <div class="col">
                 <div class="text-center">
                   <%= f.submit 'Réserve une table', class: "button-reservation" %>
                   <br>
