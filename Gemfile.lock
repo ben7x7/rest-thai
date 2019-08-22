@@ -105,7 +105,7 @@ GEM
     multi_json (1.13.1)
     mustermann (1.0.3)
     nio4r (2.3.1)
-    nokogiri (1.10.2)
+    nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     pg (1.1.4)
     public_suffix (3.0.3)
@@ -219,6 +219,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   mail_form
+  nokogiri (>= 1.10.4)
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
   rails (~> 5.2.3)
