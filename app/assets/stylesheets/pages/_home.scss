@@ -106,7 +106,17 @@
 }
 
 .section_menu_item_price {
-  text-align: center;
+  text-align: end;
+
+}
+
+small {
+  font-size: 11px;
+  color: #585658;
+}
+
+.col-3 {
+  padding-left: 0px !important;
 }
 
 .wrapper-carte {
