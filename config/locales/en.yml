@@ -115,6 +115,6 @@ en:
       subtitle: "A confirmation will be mailed to you shortly."
     new:
       title: "Make online reservation"
-      subtitle1: "NB: For today's reservation,"
+      subtitle1: "No reservation online available"
       subtitle2: "please contact the restaurant at +41.22.792.19.00"
 

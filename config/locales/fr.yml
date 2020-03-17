@@ -115,7 +115,7 @@ fr:
       subtitle: "Une confirmation vous sera envoyée par email prochainement."
     new:
       title: "Réservation en ligne"
-      subtitle1: "NB: Si vous souhaitez réserver pour aujourd'hui,"
+      subtitle1: "Pas de réservation en ligne possible actuellement"
       subtitle2: "veuillez contacter le restaurant au +41.22.792.19.00"
 
 
