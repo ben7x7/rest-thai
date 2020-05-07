@@ -1,15 +1,16 @@
 .button-reservation {
   padding: 1rem 2rem;
   border: solid 1px #E67E22;
-  color: $main;
-  background-color: transparent;
+  color: $white;
+  background-color: $main;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 .button-reservation:hover {
-  background-color: $main;
-  color: white;
-  font-weight: bold;
+  background-color: white;
+  color: $main;
+  border: solid 2px $main;
 }
 
 .btn-white {
@@ -25,16 +26,23 @@
 }
 
 .btn-reservation-home {
+  opacity: 0;
   padding: 1rem 2rem;
-  background-color: transparent !important;
-  border: solid 2px $main !important;
+  background-color: $main !important;
+  border: solid 1px white !important;
   border-radius: 5px;
   font-size: 1.1rem !important;
   font-weight: normal;
+  transition: transform 500ms ease-out;
+  animation-name: zoomincenter;
+  animation-duration: 800ms;
+  animation-timing-function: ease-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+
 }
 
 .btn-reservation-home:hover {
-  background-color: $main !important;
   font-weight: bold;
   text-decoration: none;
   color: white !important;

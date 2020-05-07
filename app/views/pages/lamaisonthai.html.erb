@@ -326,7 +326,43 @@
         <h2><%= t('s4.info.title') %></h2>
       </div>
       <div class="row mt-5">
-        <div class=" col-sm-12 col-md-6 justify-content-center">
+        <div class=" col-sm-12 col-md-6 justify-content-center window-info" id="lmt-info-window">
+          <div class="window-logo d-flex justify-content-center align-items-center">
+            <%= image_tag'lmt-xs.png', height: 70 %>
+            <div class="lmt-title" >
+              <h2 id="lmt-contact">LA MAISON THAI</h2>
+            </div>
+          </div>
+          <div class="title-window-lmt">
+            <h5><%= t('s4.info.window2') %></h5>
+            <hr>
+            <ul class="list-contact lc-lmt">
+              <li class="list-item d-flex justify-content-between mb-5">
+                <p><%= t('s4.info.week1') %></p>
+                <p>11H - 19H30</p>
+              </li>
+            </ul>
+          </div>
+          <div class="title-window-lmt">
+            <h5><%= t('s4.info.window1') %></h5>
+            <hr>
+            <ul class="list-contact lc-lmt">
+              <li class="list-item d-flex mb-2 text-center">
+                <i class="fas fa-phone"></i>
+                <p>+41.22.320.10.49</p>
+              </li>
+              <li class="list-item d-flex mb-2">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>rue de Carouge 69, 1205 Genève</p>
+              </li>
+              <li class="list-item d-flex mb-2">
+                <i class="far fa-envelope"></i>
+                <p>lamaisonthai@gmail.ch</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class=" col-sm-12 col-md-6 justify-content-center">
           <div class="window-info">
             <div class="title-window">
               <h5><%= t('s4.info.window1') %></h5>
@@ -363,7 +399,7 @@
           </div>
           <br>
           <br>
-        </div>
+        </div> -->
         <div class="col-sm-12 col-md-6">
           <div class="map-large">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.99212521564!2d6.14159111558195!3d46.19071537911631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b484cf484bf%3A0x21ea189e8fa8d4a9!2sLa+Maison+Tha%C3%AF!5e0!3m2!1sfr!2sfr!4v1555328710387!5m2!1sfr!2sfr" width="540" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
