@@ -1,21 +1,7 @@
-<div id="myModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Commandes à l'emporter uniquement</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            </div>
-            <div class="modal-body">
-              <p>Suite aux mesures prises contre le Coronavirus, nous vous confirmons que le restaurant restera fermé pour une durée encore indéterminée à ce jour. <br> CEPENDANT, nous continuons d'assurer toutes vos commandes à l'emporter. <br> Merci de nous contacter par téléphone au 022.792.19.00</p>
-
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="pimg1">
   <div class="ptext">
-    <div class="logos">
+    <div class="logos fadeindowncenter">
       <%= image_tag "logo-white.png" %>
       <br>
       <br>
@@ -23,11 +9,11 @@
     </div>
     <div class="subtitle-details d-flex flex-column justify-content-center mb-2">
       <div class="text-center">
-        <h3><%= t('s1.subtitle') %></h3>
+        <h3 id="subtitle-up"><%= t('s1.subtitle') %></h3>
       </div>
     </div>
     <div class="home-link mt-3 text-center">
-      <%= link_to t('s1.btn'), new_reservation_path, class: "btn-reservation-home btn-white" %>
+      <%= link_to t('s1.btn'), new_reservation_path, class: "btn-reservation-home zoomincenter btn-white" %>
     </div>
   </div>
   <div class="ptext2">
@@ -70,7 +56,7 @@
 <section class="section section-menu" id="menu">
   <div class=" wrapper wrapper-menu">
     <div class="container">
-      <div class="title-header text-center">
+      <div class="title-header fadeindowncenter text-center">
         <h2><%= t('s3.title') %></h2>
       </div>
       <div class="title-subheader text-center text-muted">
@@ -878,7 +864,7 @@
         </div>
       </div>
       <div class="home-link text-center">
-        <%= link_to t('s3.menu.btn'), new_reservation_path, class: "btn-reservation-home btn-black" %>
+        <%= link_to t('s3.menu.btn'), new_reservation_path, class: "btn-reservation-home btn-white" %>
       </div>
     </div>
   </div>
@@ -895,48 +881,42 @@
         <h2><%= t('s4.info.title') %></h2>
       </div>
       <div class="row mt-5">
-        <div class=" col-sm-12 col-md-6 justify-content-center">
-          <div class="window-info">
-            <div class="title-window">
-              <h5><%= t('s4.info.window1') %></h5>
-              <hr>
-            </div>
-
-            <ul class="list-contact">
-              <li class="list-item d-flex mb-3">
-                <i class="fas fa-map-marker-alt"></i>
-                <p>rue du Gaudy-le-Fort 14, 1213 Onex</p>
-              </li>
-              <li class="list-item d-flex mb-3">
-                <i class="fas fa-phone"></i>
-                <p>+41.22.792.19.00</p>
-              </li>
-              <li class="list-item d-flex mb-3">
-                <i class="far fa-envelope"></i>
-                <p>contact@tabledesartisans.ch</p>
-              </li>
-            </ul>
+        <div class=" col-sm-12 col-md-6 justify-content-center window-info">
+          <div class="window-logo">
+            <%= image_tag'logo-nav.png', height: 70 %>
           </div>
-          <br>
-          <div class="window-info">
-            <div class="title-window">
-              <h5><%= t('s4.info.window2') %></h5>
-              <hr>
-            </div>
-
+          <div class="title-window">
+            <h5><%= t('s4.info.window2') %></h5>
+            <hr>
             <ul class="list-contact">
-              <li class="list-item d-flex justify-content-between mb-3">
+              <li class="list-item d-flex justify-content-between mb-1">
                 <p><%= t('s4.info.week1') %></p>
                 <p>12H - 14H30</p>
               </li>
-              <li class="list-item d-flex justify-content-between mb-3">
+              <li class="list-item d-flex justify-content-between mb-5">
                 <p><%= t('s4.info.week2') %></p>
                 <p>19H - 23H</p>
               </li>
             </ul>
           </div>
-          <br>
-          <br>
+          <div class="title-window">
+            <h5><%= t('s4.info.window1') %></h5>
+            <hr>
+            <ul class="list-contact">
+              <li class="list-item d-flex mb-2 text-center">
+                <i class="fas fa-phone"></i>
+                <p>+41.22.792.19.00</p>
+              </li>
+              <li class="list-item d-flex mb-2">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>rue du Gaudy-le-Fort 14, 1213 Onex</p>
+              </li>
+              <li class="list-item d-flex mb-2">
+                <i class="far fa-envelope"></i>
+                <p>contact@tabledesartisans.ch</p>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-12 col-md-6">
           <div class="map-large">
@@ -954,7 +934,7 @@
 <section class="section section-gallery">
   <div class="wrapper wrapper-gallery">
     <div class="container">
-      <div class="title-header text-center">
+      <div class="title-header fadeindowncenter text-center">
         <h2><%= t('s5.gallery.title') %></h2>
       </div>
       <div class="wrapper-carousel">

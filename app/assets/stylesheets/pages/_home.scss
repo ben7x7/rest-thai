@@ -13,8 +13,18 @@
   top: 20%;
   width: 100%;
   text-align: center;
+}
+
+#subtitle-up {
   color: white;
-  font-size: 1rem;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 500ms ease-out;
+  animation-name: fadeinupcenter;
+  animation-duration: 800ms;
+  animation-timing-function: ease-out;
+  animation-delay: 800ms;
+  animation-fill-mode: forwards;
 }
 
 .ptext2 {
@@ -26,6 +36,7 @@
   flex-direction: row;
   justify-content: space-between;
   color: white;
+  animation: stretch 500ms ease-out 2.5s forwards;
   .fas {
     color: $main
   }
@@ -33,6 +44,7 @@
 
 .subtitle-details p {
   margin-bottom: 0.5rem;
+
 }
 
 .fas,
@@ -42,10 +54,26 @@
 
 .logos {
   padding: 1rem 0;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: transform 500ms ease-out;
+  animation-name: fadeindowncenter;
+  animation-duration: 800ms;
+  animation-timing-function: ease-out;
+  animation-delay: none;
+  animation-fill-mode: forwards;
 }
 
 .home-link {
   padding-top: 2rem;
+  text-decoration: none;
+  color: $brown;
+}
+
+.home-link:hover {
+  text-decoration: none;
+  color: $brown;
+  font-weight: bold;
 }
 
 //section 2
@@ -141,12 +169,25 @@ hr {
 
 //section Contact
 .wrapper-info {
-  color: #F4F4F4;
-  background-color: #454647;
+  color: $gray;
+  background-image: linear-gradient(to top, #6d4119 0%, #463227 100%);
 }
 
 .title-info h2 {
-  color: $main;
+  color: $back;
+}
+
+.window-info {
+  padding: 1rem 2rem;
+  background-color: $back;
+  border-radius: 3px;
+  transform: rotateX(90deg);
+  animation: flip 1s ease-out forwards;
+}
+
+.window-logo {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .title-window {
@@ -161,19 +202,15 @@ hr {
   }
 }
 
-.window-info {
-  padding: 1rem 2rem;
-}
-
 ul.list-contact {
   list-style: none;
   padding: 0 0;
   margin: 0 0;
-  font-size: 18px;
+  font-size: 16px;
+  color: $brown;
 }
 
 li.list-item {
-  margin-bottom: 1rem;
   display: flex-row;
   align-items: center;
   p {

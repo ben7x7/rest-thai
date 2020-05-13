@@ -1,7 +1,7 @@
 .navbar-resto {
   justify-content: space-between;
   align-item: center;
-  background: white;
+  background-color: $back;
 }
 
 .navbar-brand {
@@ -32,7 +32,7 @@
   position: absolute;
   right: 30px;
   top: -7px;
-  background-color: white;
+  background-color: $back;
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;

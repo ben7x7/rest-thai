@@ -22,29 +22,47 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <%= f.label :name, class: "sr-only" %>
-                  <%= f.text_field :name, placeholder: "Entrer votre nom",required: true %>
+                  <%= f.text_field :name, placeholder: "Entrer votre nom", required: true %>
+                  <div class="icone-input-end">
+                    <i class="fas fa-user"></i>
+                  </div>
                 </div>
                 <div class="form-group">
                   <%= f.label :email, class: "sr-only" %>
                   <%= f.email_field :email, placeholder: "Email", required: true %>
+                  <div class="icone-input-end">
+                    <i class="fas fa-at"></i>
+                  </div>
                 </div>
                 <div class="form-group">
                   <%= f.label :phone, class: "sr-only" %>
                   <%= f.text_field :phone, placeholder: "Numéro de téléphone", required: true %>
+                  <div class="icone-input-end">
+                    <i class="fas fa-mobile-alt"></i>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
                   <%= f.label :pax, class: "sr-only" %>
                   <%= f.text_field :pax, placeholder: "Combien de personnes ?", required: true %>
+                  <div class="icone-input-end">
+                    <i class="fas fa-users"></i>
+                  </div>
                 </div>
                 <div class="form-group">
                   <%= f.label :date, class: "sr-only" %>
-                  <%= f.date_field :date, format: "%a %e %b %Y",required: true %>
+                  <%= f.date_field :date, format: "%a %e %b %Y", required: true %>
+                  <div class="icone-input-end">
+                    <i class="far fa-calendar-check"></i>
+                  </div>
                 </div>
                 <div class="form-group">
                   <%= f.label :time, class: "sr-only" %>
                   <%= f.time_field :time, required: true %>
+                  <div class="icone-input-end">
+                    <i class="far fa-clock"></i>
+                  </div>
                 </div>
                 <br>
                 <div class="hidden">

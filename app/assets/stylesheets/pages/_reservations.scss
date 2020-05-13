@@ -1,15 +1,26 @@
 .wrapper-reservation {
   padding: 5rem 0;
-  min-height: calc(100vh - 70px)
+  background-size: cover;
 }
 
 .hidden {
   display: none;
 }
 
+.form-group {
+  position: relative;
+}
+
+.icone-input-end {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
 .form-group input {
   width: 100% !important;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   -webkit-appearance: listbox;
 }
 
