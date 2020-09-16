@@ -173,11 +173,11 @@ hr {
 //section Contact
 .wrapper-info {
   color: $gray;
-  background-image: linear-gradient(to top, #6d4119 0%, #463227 100%);
+  background-image: $back;
 }
 
 .title-info h2 {
-  color: $back;
+  color: $gray;
 }
 
 .window-info {
@@ -236,6 +236,9 @@ li.list-item {
     flex-direction: column;
     justify-content: center;
   }
+  .map-small {
+    margin-top: 15px;
+  }
 }
 
 @media(max-width: 992px) {
@@ -263,7 +266,7 @@ li.list-item {
 }
 //section Gallery
 .wrapper-gallery {
-  background-color: #F8F1E5;
+  background-color: #F4F3F3;
   color: #2D2F30;
 }
 
