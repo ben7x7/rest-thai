@@ -12,6 +12,18 @@
   padding: 0px 30px;
 }
 
+.conditions-link {
+  text-decoration: none;
+}
+
+.conditions-link a {
+  color: $medium-gray;
+}
+
+.privacy p {
+    margin: 0 !important;
+  }
+
 .social-link ul {
   margin: 0;
   padding: 0;
@@ -20,17 +32,16 @@
 
 .social-link ul li {
   list-style: none;
+  height: 30px;
 }
 
 .social-link ul li a {
   text-decoration: none;
-  margin: 0 15px;
   color: $medium-gray;
 }
 
 .social-link ul li a .fab {
   width: 100%;
-  height: 100%;
   display: block;
   font-size: 24px;
   color: $medium-gray;
@@ -43,4 +54,20 @@
 
 .social-link ul li:nth-child(2) a:hover .fab {
   color: #dd4b39;
+}
+
+@media(max-width: 568px) {
+  .footer-design {
+    flex-direction: column-reverse;
+
+    justify-content: space-around;
+  }
+  .privacy {
+    order: -1;
+  }
+
+  .social-link ul li a .fab {
+    margin: 10px 15px;
+  }
+
 }

@@ -15,6 +15,11 @@
   text-align: center;
 }
 
+.logo-title img {
+    width: 375px;
+    margin-top: 20px;
+  }
+
 #subtitle-up {
   color: white;
   opacity: 0;
@@ -44,7 +49,6 @@
 
 .subtitle-details p {
   margin-bottom: 0.5rem;
-
 }
 
 .fas,
@@ -92,7 +96,7 @@
   max-width: 700px;
   margin: auto;
   font-size: 18px;
-  padding: 0 2rem;
+  padding: 0 1rem;
   text-align: justify;
 }
 
@@ -135,7 +139,6 @@
 
 .section_menu_item_price {
   text-align: end;
-
 }
 
 small {
@@ -215,14 +218,29 @@ li.list-item {
     margin-bottom: 0px;
   }
 }
+
 @media(max-width: 568px) {
   .navbar-brand img {
     width: 250px;
   }
 
+  h3#subtitle-up {
+    font-size: 18px;
+  }
+
+  .logo-title img {
+    width: 300px;
+  }
+
   .ptext2 {
     flex-direction: column;
     justify-content: center;
+  }
+}
+
+@media(max-width: 992px) {
+  .window-logo img {
+    height: 40px;
   }
 }
 
