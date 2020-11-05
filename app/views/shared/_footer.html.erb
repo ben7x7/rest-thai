@@ -1,17 +1,20 @@
-<div class="footer-design">
-  <div class="conditions-link">
-      <!-- <li>
-        <%= link_to "Staff", root_path %>
-      </li> -->
-    <%= link_to "Conditions Générales", root_path %>
+<div class="my-footer">
+  <div class="my-footer-header">
+    <div class="conditions-link">
+      <%= link_to 'Mentions Légales', mentions_path, class: "legales-link" %>
+      <span class="separateur-footer">|</span>
+      <%= link_to 'Politique de Confidentialité', confidentialite_path, class: "legales-link" %>
+    </div>
+    <div class="social-link">
+      <ul>
+        <li><a href="https://www.facebook.com/latabledesartisans"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/latabledesartisans"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
   </div>
-  <div class="privacy">
-    <p>© 2020 LaTabledesArtisans</p>
-  </div>
-  <div class="social-link">
-    <ul>
-      <li><a href="https://www.facebook.com/latabledesartisans"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-      <li><a href="https://www.instagram.com/latabledesartisans"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-    </ul>
+  <div class="my-footer-footer text-center">
+    <div class="privacy">
+      <p>© 2020 LaTabledesArtisans</p>
+    </div>
   </div>
 </div>
