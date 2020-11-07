@@ -14,3 +14,8 @@ AOS.init({
 });
 
 
+$(document).ready(function(){
+  $("#myModal").modal('show');
+  $("#modal-cookies").modal('show');
+});
+
