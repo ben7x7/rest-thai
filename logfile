@@ -1,0 +1,6 @@
+2020-12-02 11:33:45.319 CET [30939] LOG:  listening on IPv6 address "::1", port 5432
+2020-12-02 11:33:45.319 CET [30939] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-12-02 11:33:45.320 CET [30939] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-12-02 11:33:45.334 CET [30940] LOG:  database system was shut down at 2020-12-02 11:33:00 CET
+2020-12-02 11:33:45.339 CET [30939] LOG:  database system is ready to accept connections
+2020-12-02 11:34:09.753 CET [30996] FATAL:  database "rest-thai_development" does not exist

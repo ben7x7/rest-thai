@@ -25,6 +25,7 @@
     <%= render 'shared/navbar'%>
     <%= yield %>
     <%= render 'shared/footer' %>
+    <%= render 'cookies_eu/consent_banner', link: '/cookies' %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
   </body>
