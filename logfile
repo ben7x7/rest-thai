@@ -4,3 +4,102 @@
 2020-12-02 11:33:45.334 CET [30940] LOG:  database system was shut down at 2020-12-02 11:33:00 CET
 2020-12-02 11:33:45.339 CET [30939] LOG:  database system is ready to accept connections
 2020-12-02 11:34:09.753 CET [30996] FATAL:  database "rest-thai_development" does not exist
+2020-12-02 18:09:03.699 CET [95140] FATAL:  database "source_development" does not exist
+2020-12-02 18:14:07.269 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:07.966 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:07.966 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:08.657 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:08.657 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:09.364 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:09.364 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:10.070 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:10.070 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:10.774 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:10.774 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:11.476 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:11.476 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:12.182 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:12.182 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:12.872 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:12.872 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:13.570 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:13.570 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:14.268 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:14.268 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:14.974 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:14.974 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:15.678 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:15.678 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:16.380 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:16.380 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:17.088 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:17.088 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:17.795 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:17.795 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:18.236 CET [30944] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-12-02 18:14:18.237 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:18.237 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:18.942 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:18.942 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:19.646 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:19.646 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:20.354 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:20.354 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:21.051 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:21.051 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:21.741 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:21.741 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:22.437 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:22.437 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:23.137 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:23.137 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:23.843 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:23.843 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:24.550 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:24.550 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:25.245 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:25.246 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:25.949 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:25.949 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:26.657 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:26.657 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:27.363 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:27.363 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:28.068 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:28.069 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:28.775 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:28.775 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:29.213 CET [30944] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-12-02 18:14:29.214 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:29.214 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:29.920 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:29.920 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:30.629 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:30.630 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:31.336 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:31.336 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:32.036 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:32.036 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:32.719 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:32.719 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:33.423 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:33.423 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:34.131 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:34.131 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:34.834 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:34.835 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:35.538 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:35.538 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:36.246 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:36.246 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:36.945 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:36.945 CET [30945] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-12-02 18:14:37.375 CET [30939] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-12-02 18:14:37.375 CET [30939] LOG:  performing immediate shutdown because data directory lock file is invalid
+2020-12-02 18:14:37.375 CET [30939] LOG:  received immediate shutdown request
+2020-12-02 18:14:37.375 CET [30939] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-12-02 18:14:37.377 CET [30945] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2020-12-02 18:14:37.377 CET [30944] WARNING:  terminating connection because of crash of another server process
+2020-12-02 18:14:37.377 CET [30944] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2020-12-02 18:14:37.377 CET [30944] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2020-12-02 18:14:37.387 CET [30939] LOG:  database system is shut down
